@@ -303,11 +303,11 @@ bool InsertAt(node<T>* head, T x, T item){
 }
 
 int main(){
-	list <int> L1;
-	L1.insert(L1.size(), 20);
-	L1.insert(L1.size(), 31);
-	L1.insert(L1.size(), 10);
-	print(L1);
+// 	list <int> L1;
+// 	L1.insert(L1.size(), 20);
+// 	L1.insert(L1.size(), 31);
+// 	L1.insert(L1.size(), 10);
+// 	print(L1);
 	/*
 	orderedList<int> ol;
 	ol.insert(20);
@@ -320,9 +320,9 @@ int main(){
 	ol.retrieve(0,x);
 	cout << x << endl;
 	*/
-	cout << sum(L1) << endl;
-	closest(L1);
-	revList(L1);
-	print(L1);
+// 	cout << sum(L1) << endl;
+// 	closest(L1);
+// 	revList(L1);
+// 	print(L1);
 	return 0;
 }
