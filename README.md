@@ -1,8 +1,7 @@
 # DataStructures
 
-Data Structure Implementations in C++
+# Files:
 
-Files:
   List_LinkedList.cpp has Lists implemented in linked list with it's proper functions in addition to orderedList class
 
   Queue_LinkedList.cpp has Queues implemented in linked list with it's proper functions.
