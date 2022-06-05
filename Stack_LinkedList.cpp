@@ -147,29 +147,29 @@ bool print(stack <N> s){
 	}
 }
 int main(){
-	{
-		stack <int> s;
-		s.push(10);
-		s.push(20);
-		s.push(30);
-			for (int i = 0; i < 5; i++){
-				stack<int> s1;
-				s1.push(i);
-				s1=s;
-			}
+// 	{
+// 		stack <int> s;
+// 		s.push(10);
+// 		s.push(20);
+// 		s.push(30);
+// 			for (int i = 0; i < 5; i++){
+// 				stack<int> s1;
+// 				s1.push(i);
+// 				s1=s;
+// 			}
 			
-	}
-	stack <int> s;
-		s.push(10);
-		s.push(20);
-		s.push(30);
-	print(s);
-	print(s);
-	print(s);
-	stack <int> s2;
-	s2 = s;
-	print(s2);
-	print(s2);
+// 	}
+// 	stack <int> s;
+// 		s.push(10);
+// 		s.push(20);
+// 		s.push(30);
+// 	print(s);
+// 	print(s);
+// 	print(s);
+// 	stack <int> s2;
+// 	s2 = s;
+// 	print(s2);
+// 	print(s2);
 //	stack<int> s1(s);
 	return 0;
 }
