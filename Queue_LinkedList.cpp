@@ -105,9 +105,9 @@ class queue{
 };
 
 int main(){
-	queue <int> q;
-	q.Append(1);
-	int item;
-	queue <int> q2;
+// 	queue <int> q;
+// 	q.Append(1);
+// 	int item;
+// 	queue <int> q2;
 	return 0;
 }
