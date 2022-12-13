@@ -54,20 +54,7 @@ class stack{
 			p = p->next;
 		}
 	}
-	/*
-	stack(stack<N> &s){
-		node <N>* p = s.topIndex;
-		if (p != NULL){
-			node <N>*newCopy;
-			newCopy = topIndex = new node<N> (p->data);
-			while(p->next != NULL){
-				p = p-> next;
-				newCopy->next = new node <N>(p->data);
-				newCopy = newCopy->next;
-			}
-		}
-	}
-	*/
+	
 	bool empty(){
 		return (topIndex == NULL);
 	}
@@ -113,22 +100,6 @@ class stack{
 		}
 		return;
 	}
-	/*
-	void operator=(stack<N> &s){
-		while(pop());
-		if (!s.empty()){
-			node <N>* tmp = s.topIndex;
-			node <N>* p, *newCopy;
-			p = newCopy = new node<N> (tmp->data);
-			while(tmp->next != NULL){
-				tmp = tmp-> next;
-				p->next = new node <N>(tmp->data);
-				p = p->next;
-			}
-			topIndex = newCopy;
-		}
-	}
-	*/
 	~stack(){
 		while(pop());
 	}
